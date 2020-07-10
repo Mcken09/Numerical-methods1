@@ -137,44 +137,12 @@ Jakoby 2nd example
 ```
 
 ![Image alt](https://github.com/Mcken09/Numerical-methods1/raw/master/pictures/yakobi2.png)    
-# 5. interpol_splain.py  
-A spline is a function whose domain is divided into a finite number of segments, on each of which it coincides with some algebraic polynomial. The maximum degree of polynomials used is called the spline degree.  
-1st Example
-```
-5
-x: [ 4.14757698  0.2191087   1.10029986  2.49146852  3.64603921] 
-y: [ 2.33114358  3.5038727   4.59877739  1.7693087   3.72638994] 
-z: [ 4.91623522  1.14190025  3.86228083  3.35435711]
-[ 2.10168319  4.65046703 -1.01875763  3.23196757]
-
-
-```
-
-![Image alt](https://github.com/Mcken09/Numerical-methods1/raw/master/pictures/splain1.png)  
-2nd example  
-```
-20
-x: [ 15.19013615   4.23954671  14.08911985  15.53765455   4.12198488
-  18.15744215   2.42358296  15.52185978   9.7244545   13.14641295
-   6.21037381   1.54835963  15.9127913   15.60880921   7.29293244
-   2.82686959  14.1594513    9.6815579   19.12314617  14.90299798] 
-   y: [  2.90427748  19.56054067   2.22436496  18.27082984  17.32652559
-   5.28510058  13.18126964   1.02578844   4.1741457   13.06524988
-   7.48313675   9.48504441  12.81106155   4.19817683   4.43558497
-  11.92342829  17.36999569  12.38511048   6.95812947   6.97275802] 
-  z: [ 11.82769165   0.24593277   8.31941256  18.31119792   2.40469022
-   6.89470841  11.80064847  14.07714421   3.34336133   2.82963474
-  14.7435358   12.62393824  11.47794201  16.49985688   8.0138482
-   2.22914668  13.20678863   6.20646825  11.62288028]
-[   8.01868349   26.58967706  -61.69084909   18.50025736   18.79984239
-   10.93739788    4.47915217    1.81036025  -12.40553086    4.76232339
-    3.81892603   12.04954297 -112.84386007    4.17273851    3.22689076
-   11.63615587   16.30947154   14.38257584    6.98412808]
-
-
-```
-
-![Image alt](https://github.com/Mcken09/Numerical-methods1/raw/master/pictures/splain2.png)      
+# 5. Interpol_line.py
+Linear interpolation — interpolation by the algebraic binomial P₁ (x) = ax + b of the function f given at two points x₀ and x₁ of the segment [a, b]. If values ​​are specified at several points, the function is replaced by a piecewise linear function.  
+Line 1 example  
+![Image alt](https://github.com/Mcken09/Numerical-methods1/raw/master/pictures/line1.png)  
+Line 2 example  
+![Image alt](https://github.com/Mcken09/Numerical-methods1/raw/master/pictures/line2.png)      
 # 6. Interpol_lagr.py  
 The Lagrange interpolation polynomial is a polynomial of minimal degree that takes these values ​​at the specified set of points. For n + 1 pairs of numbers (x0, y0), (x1, y1), ..., (xn, yn), where all xj are different, there exists a unique polynomial L (x) of degree at most n for which L (xj) = YJ.  
 Lagrange1 example  
@@ -221,12 +189,40 @@ x: [ 40.38797403  46.37303413   8.08387368  10.29454408  29.20114856
 ```
 ![Image alt](https://github.com/Mcken09/Numerical-methods1/raw/master/pictures/lagr2.png)  
 
-# 7. Interpol_line.py  
-Linear interpolation — interpolation by the algebraic binomial P₁ (x) = ax + b of the function f given at two points x₀ and x₁ of the segment [a, b]. If values ​​are specified at several points, the function is replaced by a piecewise linear function.  
-Line 1 example  
-![Image alt](https://github.com/Mcken09/Numerical-methods1/raw/master/pictures/line1.png)  
-Line 2 example  
-![Image alt](https://github.com/Mcken09/Numerical-methods1/raw/master/pictures/line2.png)  
+# 7. Interpol_splain.py  
+A spline is a function whose domain is divided into a finite number of segments, on each of which it coincides with some algebraic polynomial. The maximum degree of polynomials used is called the spline degree.  
+1st Example
+```
+5
+x: [ 4.14757698  0.2191087   1.10029986  2.49146852  3.64603921] 
+y: [ 2.33114358  3.5038727   4.59877739  1.7693087   3.72638994] 
+z: [ 4.91623522  1.14190025  3.86228083  3.35435711]
+[ 2.10168319  4.65046703 -1.01875763  3.23196757]
+
+
+```
+
+![Image alt](https://github.com/Mcken09/Numerical-methods1/raw/master/pictures/splain1.png)  
+2nd example  
+```
+20
+x: [ 15.19013615   4.23954671  14.08911985  15.53765455   4.12198488
+  18.15744215   2.42358296  15.52185978   9.7244545   13.14641295
+   6.21037381   1.54835963  15.9127913   15.60880921   7.29293244
+   2.82686959  14.1594513    9.6815579   19.12314617  14.90299798] 
+   y: [  2.90427748  19.56054067   2.22436496  18.27082984  17.32652559
+   5.28510058  13.18126964   1.02578844   4.1741457   13.06524988
+   7.48313675   9.48504441  12.81106155   4.19817683   4.43558497
+  11.92342829  17.36999569  12.38511048   6.95812947   6.97275802] 
+  z: [ 11.82769165   0.24593277   8.31941256  18.31119792   2.40469022
+   6.89470841  11.80064847  14.07714421   3.34336133   2.82963474
+  14.7435358   12.62393824  11.47794201  16.49985688   8.0138482
+   2.22914668  13.20678863   6.20646825  11.62288028]
+[   8.01868349   26.58967706  -61.69084909   18.50025736   18.79984239
+   10.93739788    4.47915217    1.81036025  -12.40553086    4.76232339
+    3.81892603   12.04954297 -112.84386007    4.17273851    3.22689076
+   11.63615587   16.30947154   14.38257584    6.98412808]
+
 # 8. Ur_tepla.py  
 Other functions u 0 (x) and performance Methods μ. Give your feedback in the future Time T.  
 ∂u(x,t)/∂t - μ*(∂^2)(x,t)/∂x^2 = 0,x∈R,t>0   
