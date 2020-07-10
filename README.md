@@ -149,7 +149,7 @@ z: [ 0.99532583  0.38068825  0.9061145   0.86756244]
 
 ```
 
-![Image alt](https://github.comMcken09/Numerical-methods1/raw/master/pictures/splain1.png)  
+![Image alt](https://github.com/Mcken09/Numerical-methods1/raw/master/pictures/splain1.png)  
 2nd example  
 ```
 50
