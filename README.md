@@ -138,7 +138,7 @@ Jakoby 2nd example
 
 ![Image alt](https://github.com/Mcken09/Numerical-methods1/raw/master/pictures/yakobi2.png)    
 # 5. Interpol_splain.py
-Linear interpolation — interpolation by the algebraic binomial P₁ (x) = ax + b of the function f given at two points x₀ and x₁ of the segment [a, b]. If values ​​are specified at several points, the function is replaced by a piecewise linear function.  
+A splaine is a function whose domain is divided into a finite number of segments, on each of which it coincides with some algebraic polynomial. The maximum degree of polynomials used is called the spline degree.  
 Line 1 example  
 ![Image alt](https://github.com/Mcken09/Numerical-methods1/raw/master/pictures/line1.png)  
 Line 2 example  
@@ -190,7 +190,7 @@ x: [ 40.38797403  46.37303413   8.08387368  10.29454408  29.20114856
 ![Image alt](https://github.com/Mcken09/Numerical-methods1/raw/master/pictures/lagr2.png)  
 
 # 7. Interpol_line.py  
-A spline is a function whose domain is divided into a finite number of segments, on each of which it coincides with some algebraic polynomial. The maximum degree of polynomials used is called the spline degree.  
+Linear interpolation — interpolation by the algebraic binomial P₁ (x) = ax + b of the function f given at two points x₀ and x₁ of the segment [a, b]. If values ​​are specified at several points, the function is replaced by a piecewise linear function.  
 1st Example
 ```
 5
