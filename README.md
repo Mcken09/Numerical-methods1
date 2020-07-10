@@ -111,6 +111,8 @@ x: [ 15.19013615   4.23954671  14.08911985  15.53765455   4.12198488
    11.63615587   16.30947154   14.38257584    6.98412808]
 
 ```
+![Image alt](https://github.com/Mcken09/Numerical-methods1/raw/master/pictures/splain2.png)  
+
 # 4. Ur_tepla.py  
 Other functions u 0 (x) and performance Methods μ. Give your feedback in the future Time T.  
 ∂u(x,t)/∂t - μ*(∂^2)(x,t)/∂x^2 = 0,x∈R,t>0   
