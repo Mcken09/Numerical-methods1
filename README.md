@@ -137,7 +137,7 @@ Jakoby 2nd example
 ```
 
 ![Image alt](https://github.com/Mcken09/Numerical-methods1/raw/master/pictures/yakobi2.png)    
-# 5. Interpol_line.py
+# 5. Interpol_splain.py
 Linear interpolation — interpolation by the algebraic binomial P₁ (x) = ax + b of the function f given at two points x₀ and x₁ of the segment [a, b]. If values ​​are specified at several points, the function is replaced by a piecewise linear function.  
 Line 1 example  
 ![Image alt](https://github.com/Mcken09/Numerical-methods1/raw/master/pictures/line1.png)  
@@ -189,7 +189,7 @@ x: [ 40.38797403  46.37303413   8.08387368  10.29454408  29.20114856
 ```
 ![Image alt](https://github.com/Mcken09/Numerical-methods1/raw/master/pictures/lagr2.png)  
 
-# 7. Interpol_splain.py  
+# 7. Interpol_line.py  
 A spline is a function whose domain is divided into a finite number of segments, on each of which it coincides with some algebraic polynomial. The maximum degree of polynomials used is called the spline degree.  
 1st Example
 ```
@@ -223,6 +223,7 @@ x: [ 15.19013615   4.23954671  14.08911985  15.53765455   4.12198488
     3.81892603   12.04954297 -112.84386007    4.17273851    3.22689076
    11.63615587   16.30947154   14.38257584    6.98412808]
 
+```
 # 8. Ur_tepla.py  
 Other functions u 0 (x) and performance Methods μ. Give your feedback in the future Time T.  
 ∂u(x,t)/∂t - μ*(∂^2)(x,t)/∂x^2 = 0,x∈R,t>0   
