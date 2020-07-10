@@ -140,9 +140,34 @@ Jakoby 2nd example
 # 5. Interpol_splain.py
 A splaine is a function whose domain is divided into a finite number of segments, on each of which it coincides with some algebraic polynomial. The maximum degree of polynomials used is called the spline degree.  
 Line 1 example  
-![Image alt](https://github.com/Mcken09/Numerical-methods1/raw/master/pictures/line1.png)  
+```
+5
+x: [2.55571701 2.83136444 3.71531784 1.66818978 4.85512511]
+y: [4.8421043  1.33556008 4.38299771 4.85691918 0.49812908]
+z: [2.55276572 4.7034797  0.14316083 0.14788522]
+[   4.86010684   -5.85442001 -314.58474199  -28.1001882 ]
+```
 Line 2 example  
-![Image alt](https://github.com/Mcken09/Numerical-methods1/raw/master/pictures/line2.png)      
+```
+20
+x: [15.30736952  5.54725169  5.50634902  2.58541568  4.40029128 13.85282162
+ 16.39544599 16.91649845  4.66504327  4.6243176   8.81971832  0.63227205
+  6.39577313 14.86017014 17.12320954  0.65112527 16.84731637 15.74860152
+  0.57232255  7.8042343 ]
+y: [10.12248579 15.72591367  1.44303628  1.94911547 13.80250791  2.2803321
+ 16.70365356  9.59510917  1.6952933  17.75866343 12.76048293 10.06011639
+  9.50132455 19.44704662 12.87812999 16.28137105 14.36683548  4.67745332
+ 12.51318673  9.45533336]
+z: [ 6.36208659  1.3549495   5.59690641  3.37349515  9.77943626  7.106791
+  1.76592982 16.72645533  2.21167739 16.09811742 13.8925541   8.64761592
+  0.20694708 14.35542502  8.3220781   5.30701353  7.47802783  9.44798153
+ 14.93023168]
+[ 1.37050854e+02  5.14906105e+03  3.93382471e+00  7.87452892e+01
+ -2.97660240e+04 -4.49495255e+04  3.77033501e+05  5.86627704e+00
+ -9.95242012e+02 -2.16841817e+05  7.72536997e+03 -1.28078575e+04
+ -1.41635126e+04  9.40933453e+00 -4.33607075e+04 -3.47321354e+03
+  3.58222930e+04 -2.05809937e+04 -2.22784735e+05]
+```
 # 6. Interpol_lagr.py  
 The Lagrange interpolation polynomial is a polynomial of minimal degree that takes these values ​​at the specified set of points. For n + 1 pairs of numbers (x0, y0), (x1, y1), ..., (xn, yn), where all xj are different, there exists a unique polynomial L (x) of degree at most n for which L (xj) = YJ.  
 Lagrange1 example  
